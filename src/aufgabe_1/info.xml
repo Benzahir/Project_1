@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preDefinedRiskpolicy>
+  <preDefinedProbability>
+    <element>
+      <id>1</id>
+      <name>occasionally</name>
+      <probabilityFrom>1.0E-4</probabilityFrom>
+      <probabilityTo>10000</probabilityTo>
+    </element>
+    <element>
+      <id>2</id>
+      <name>occasionally</name>
+      <probabilityFrom>1.0E-20</probabilityFrom>
+      <probabilityTo>10500</probabilityTo>
+    </element>
+  </preDefinedProbability>
+  <preDefinedSeverities>    
+      <element>1.Catastrophic death of more than one person</element>
+      <element>2.Catastrophic death of more than 100 person</element> 
+      <element>3.Catastrophic death of more than 200 person</element>    
+  </preDefinedSeverities>
+</preDefinedRiskpolicy>
